@@ -37,7 +37,7 @@ Transformers)** to classify text into six emotional categories:
 ## Project Structure
 
     Emotion-Classification-BERT
-    │── Emotion_Classification_BERT_TrainCode.ipynb
+    │── BERT_Emotion_Classification_TrainCode.ipynb
     │── requirements.txt
     │── README.md
 
@@ -74,15 +74,6 @@ Transformers)** to classify text into six emotional categories:
 After training for **3 epochs**, the model achieved the following
 results on the test set:
 
-  Emotion    Precision   Recall   F1-score
-  ---------- ----------- -------- ----------
-  sadness    0.96        0.97     0.96
-  joy        0.95        0.96     0.96
-  love       0.87        0.82     0.84
-  anger      0.94        0.89     0.92
-  fear       0.85        0.91     0.88
-  surprise   0.79        0.70     0.74
-
 **Overall Accuracy:** \~93%\
 **Training Loss Progress (Epoch 3/3):**
 
@@ -98,7 +89,7 @@ results on the test set:
 
 ## Demo on HuggingFace Spaces
 - **BERT Emotion Classification**  
-[HuggingFace](https://huggingface.co/spaces/Mhdjaafar/Sentiment-Bert-Analyzer)
+[HuggingFace](https://huggingface.co/spaces/Mhdjaafar/BERT-Emotion-Classification)
 
 ------------------------------------------------------------------------
 ## Future Work
